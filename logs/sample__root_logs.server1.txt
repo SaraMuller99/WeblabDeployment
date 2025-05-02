@@ -1,0 +1,224 @@
+2025-02-23 12:42:53,534 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546568122816 and this is thread id 547397300672.
+2025-02-23 12:42:53,547 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f5919f4e0>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546568122816 and this is thread id 547397300672.
+2025-02-23 12:42:53,550 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546568122816 and this is thread id 547397300672.
+2025-02-23 12:42:53,550 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f5918ed50>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546568122816 and this is thread id 547397300672.
+2025-02-23 12:42:53,551 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546568122816 and this is thread id 547397300672.
+2025-02-23 12:42:53,552 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f58fc0c60>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546568122816 and this is thread id 547397300672.
+2025-02-23 12:55:07,919 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546601693632 and this is thread id 547670457984.
+2025-02-23 12:55:07,922 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f58fc6300>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546601693632 and this is thread id 547670457984.
+2025-02-23 12:55:07,923 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546568122816 and this is thread id 547670457984.
+2025-02-23 12:55:07,923 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f59195030>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546568122816 and this is thread id 547670457984.
+2025-02-26 20:37:11,232 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 547323105728 and this is thread id 547297927616.
+2025-02-26 20:37:11,245 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f845cdc60>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 547323105728 and this is thread id 547297927616.
+2025-02-26 20:37:36,465 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 547306320320 and this is thread id 548330061440.
+2025-02-26 20:37:36,466 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f845f2120>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 547306320320 and this is thread id 548330061440.
+2025-02-27 18:11:10,054 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546433905088 and this is thread id 547334648256.
+2025-02-27 18:11:10,062 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f54d876c0>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546433905088 and this is thread id 547334648256.
+2025-02-27 18:11:10,062 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546433905088 and this is thread id 547334648256.
+2025-02-27 18:11:10,063 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f54d878a0>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546433905088 and this is thread id 547334648256.
+2025-02-27 18:11:10,063 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546433905088 and this is thread id 547334648256.
+2025-02-27 18:11:10,063 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f54bf8030>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546433905088 and this is thread id 547334648256.
+2025-02-27 18:11:21,503 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546893185472 and this is thread id 547607936640.
+2025-02-27 18:11:21,504 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f54d848a0>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546893185472 and this is thread id 547607936640.
+2025-02-27 18:11:21,504 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546433905088 and this is thread id 547607936640.
+2025-02-27 18:11:21,504 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f54d05120>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 546433905088 and this is thread id 547607936640.
+2025-02-27 18:38:09,746 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 547658650048 and this is thread id 548343524992.
+2025-02-27 18:38:09,752 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f812cb8a0>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 547658650048 and this is thread id 548343524992.
+2025-02-27 18:38:09,753 - sqlalchemy.pool.impl.NullPool - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 671, in _finalize_fairy
+    fairy._reset(pool)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 858, in _reset
+    pool._dialect.do_rollback(self)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 502, in do_rollback
+    dbapi_connection.rollback()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 547658650048 and this is thread id 548343524992.
+2025-02-27 18:38:09,753 - sqlalchemy.pool.impl.NullPool - ERROR - Exception closing connection <sqlite3.Connection object at 0x7f811246c0>
+Traceback (most recent call last):
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/pool/base.py", line 261, in _close_connection
+    self._dialect.do_close(connection)
+  File "build/bdist.linux-aarch64/egg/sqlalchemy/engine/default.py", line 508, in do_close
+    dbapi_connection.close()
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 547658650048 and this is thread id 548343524992.
