@@ -1,6 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "/home/sara/weblab/experiments/managed/libs/server/python/weblab_server.py",
-        "/home/sara/experiments/myexperiment.py" //Add for trying, not sure that has to be here
-    ]
-}
