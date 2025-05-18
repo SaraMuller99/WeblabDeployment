@@ -12,11 +12,6 @@ hosts:
             type: core
       laboratory1:
         components:
-          experiment1:
-            class: experiments.dummy.DummyExperiment
-            config:
-              dummy_verbose: true
-            type: experiment
           laboratory1:
             config_file: lab1_config.py
             protocols:

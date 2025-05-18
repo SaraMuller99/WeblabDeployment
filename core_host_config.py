@@ -75,26 +75,12 @@ core_coordinator_db_password  = u'weblab'
 
 core_coordinator_laboratory_servers = {
     'laboratory1:laboratory1@core_host' : {
-            'exp1|dummy|Dummy experiments'        : 'dummy1@dummy_queue',
             'exp1|electronics|Electronics experiments' : 'electronics1@electronics_queue',
         },
 
 }
 
-core_coordinator_external_servers = {
-    'external-robot-movement@Robot experiments'   : [ 'robot_external' ],
-}
-
-weblabdeusto_federation_demo = ('EXTERNAL_WEBLAB_DEUSTO', {
-                                    'baseurl' : 'https://weblab.deusto.es/weblab/',
-                                    'username' : 'weblabfed',
-                                    'password' : 'password',
-                                    'experiments_map' : {'external-robot-movement@Robot experiments' : 'robot-movement@Robot experiments'}
-                            })
-
 core_scheduling_systems = {
-        'dummy_queue'            : ('PRIORITY_QUEUE', {}),
-        'robot_external'   : weblabdeusto_federation_demo,
         'electronics_queue'            : ('PRIORITY_QUEUE', {}),
     }
 
