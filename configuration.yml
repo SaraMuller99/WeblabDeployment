@@ -15,7 +15,7 @@ hosts:
             class: experiments.http_experiment.HttpExperiment
             config:
               http_experiment_password: secret
-              http_experiment_url: http://localhost:5000
+              http_experiment_url: http://192.168.1.143:5000
               http_experiment_username: weblabdeusto
             type: experiment
           laboratory1:
